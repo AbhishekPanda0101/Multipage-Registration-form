@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registraion-Education Details</title>
+    <link rel="stylesheet" href="regform.css">
+    <script type="text/javascript" src="regform.js"></script>
+</head>
+<body>
+    <div class="head-container">
+        <h1 class="page-header">NetTantra Technologies</h1></div>
+        <div class="container">
+            <div class="div-left">
+                <img src="educationbg.jpg" height="750px" width="450px" alt="error image not found">
+                </div>
+                <div class="div-right">
+                    <form action="#" name="registration">
+                        <h2 class="form-heading">Education Details</h2>
+                        <table class="form-table">
+                            <tr>
+                                <td><label for="hscinstitute" class="reglab">HSC INSTITUTE: <sup class="req">*</sup></label>
+                                </td></tr>
+                                <tr></tr><td><input type="text" class="regtxt" name="hscinstitute">
+                                </td></tr>
+                                <tr><td><label for="hscboard" class="reglab">HSC BOARD: <sup class="req">*</sup></label>
+                                </td></tr>
+                                <tr><td>
+                                <select name="hscboard" id="hscboard" class="regtxt" required>
+                                    <option value="Select HSC board"></option>
+                                    <option value="CBSE">CBSE</option>
+                                    <option value="ICSE">ICSE</option>
+                                    <option value="STATE BOARD">STATE BOARD</option>
+                                </select>
+                                </td></tr>
+                                <tr>
+                                    <td><label for="hscscore" class="reglab">HSC SCORE IN PERCENTAGE: <sup class="req">*</sup></label>
+                                    </td></tr>
+                                    <tr>
+                                    <td><input type="text" class="regtxt" name="hscscore">
+                                </td></tr>
+                                <tr>
+                                    <td><label for="sscinstitute" class="reglab">SSC INSTITUTE: <sup class="req">*</sup></label>
+                                    </td></tr>
+                                    <tr>
+                                    <td><input type="text" class="regtxt" name="sscinstitute">
+                                    </td></tr>
+                                    <tr><td><label for="sscboard" class="reglab">SSC BOARD: <sup class="req">*</sup></label>
+                                    </td></tr><tr>
+                                    <td>
+                                    <select name="sscboard" id="sscboard" class="regtxt" required>
+                                        <option value="Select SSC board"></option>
+                                        <option value="CBSE">CBSE</option>
+                                        <option value="ICSE">ICSE</option>
+                                        <option value="STATE BOARD">STATE BOARD</option>
+                                    </select>
+                                    </td></tr>
+                                    <tr>
+                                        <td><label for="sscscore" class="reglab">SSC SCORE IN PERCENTAGE: <sup class="req">*</sup></label>
+                                        </td></tr><tr>
+                                        <td><input type="text" class="regtxt" name="sscscore">
+                                    </td></tr>
+                                    <tr><td>
+                                        <label for="pursuing" class="reglab">CURRENTLY PURSUING: <sup class="req">*</sup></label>
+                                        </td></tr><tr>
+                                        <td><input type="text" class="regtxt" name="pursuing">
+                                    </td></tr>
+                                    <tr><td>
+                                        <label for="institute" class="reglab">CURRENT EDUCATIONAL INSTITUTE NAME: <sup class="req">*</sup></label>
+                                        </td></tr><tr>
+                                        <td><input type="text" class="regtxt" name="institute" id="institute">
+                                    </td></tr>
+                                    <tr><td>
+                                        <label for="overallper" class="reglab">OVERALL PERCENTAGE: <sup class="req">*</sup></label>
+                                        </td></tr><tr>
+                                        <td><input type="text" class="regtxt" name="overallper" id="overallper">
+                                    </td></tr>
+                                    <tr><td>
+                                        <label for="backlog" class="reglab">CURRENT BACKLOGS IF ANY: <sup class="req">*</sup></label>
+                                        </td></tr><tr>
+                                        <td><input type="text" class="regtxt" name="backlog">
+                                    </td></tr>
+                                    <tr>
+                                        <th><input type="button" onclick="location.href='basicdetails_homepage.html'" class="regbtn" value="Previous Page" ></th>
+                                        <th><input type="button" onclick="validateedudetails()"  class="regbtn" value="Save & Next" >
+                                    </th></tr>
+                        </table>
+</form>
+        </div>
+    </div>
+</body>
+</html>

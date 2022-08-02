@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    background:#78a7ba;
+    padding: 0px;
+}
+*{margin: 0;}
+.head-container{
+    color:greenyellow;
+    background-color:brown;
+    display:flex;
+    justify-content:center;
+}
+.div-left{
+   display: inline-flex;
+   align-self: center;
+}
+.form-heading{
+    display: inline-flex;
+    margin-left: 100px;
+    font: bold 25px arial;
+    color:red;
+}
+.container {
+ 
+    margin-top: 50px;
+    padding:10px;
+    color:green;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+ 
+}
+.div-right{
+    display: flex;
+    justify-content:center;
+}
+.reglab{
+ padding-bottom: 15px;
+}
+.req{
+ color:red;
+}
+.regtxt{
+    margin: 10px;
+    size: 50px ;
+    
+}
+.regbtn{
+    margin-top:10px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    border-color:green;
+    color:white;
+    background-color: green;
+
+}

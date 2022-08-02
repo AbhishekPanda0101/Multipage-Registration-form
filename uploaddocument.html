@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Upload Documents</title>
+    <link rel="stylesheet" href="regform.css">
+    <script type="text/javascript" src="regform.js"></script>
+</head>
+    <div class="head-container">
+        <h1 class="page-header">NetTantra Technologies</h1></div>
+        <div class="container">
+            <div class="div-left">
+                <img src="documentbg.jpg" height="350px" width="450px" alt="error image not found">
+                </div>
+                <div class="div-right">
+                    <form action="#" name="registration">
+                        <h2 class="form-heading">Upload Documents</h2>
+                        <table class="form-table">
+                            <tr>
+                                <td><label for="photo" class="reglab">Recent passport size photograph <sup class="req">*</sup></label>
+                                </td></tr>
+                            <tr><td>
+                                <input type="file" name="photo" id="photo" class="regtxt" onchange="checkimage()">
+                            </td></tr>
+                            <tr>
+                                <td><label for="hscsheet" class="reglab">HSC mark sheet<sup class="req">*</sup></label>
+                                </td></tr>
+                            <tr><td>
+                                <input type="file" name="hscsheet" id="hscsheet" class="regtxt" onchange="checkhsc()">
+                            </td></tr><tr>
+                                <td><label for="sscsheet" class="reglab">SSC mark sheet <sup class="req">*</sup></label>
+                                </td></tr>
+                            <tr><td>
+                                <input type="file" name="sscsheet" id="sscsheet"  class="regtxt"onchange="checkssc()">
+                            </td></tr><tr>
+                                <td><label for="allsemsheet" class="reglab">All semesters mark sheet in a single PDF or docs <sup class="req">*</sup></label>
+                                </td></tr>
+                            <tr><td>
+                                <input type="file" name="allsemsheet" id="allsemsheet" class="regtxt"onchange="checkallsem()">
+                            </td></tr>
+                            <tr><th><input type="button" onclick="location.href='educationdetails.html'" class="regbtn" value="Previous Page" /></th>
+                                <th><input type="button" onclick="validatedocument()" class="regbtn" value="Complete Registration" >
+                            </th>
+                        </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+</body>
+</html>
